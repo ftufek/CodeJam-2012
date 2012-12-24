@@ -1,0 +1,16 @@
+{
+  "name": "MSET",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app"
+  },
+  "dependencies": {
+    "express": "3.0.3",
+    "ejs": "*",
+    "less-middleware": "*",
+    "mongoose" : "*",
+    "underscore": "*",
+    "coffee-script": "*"
+  }
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel='stylesheet' href='/stylesheets/bootstrap.css' />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='/stylesheets/bootstrap-responsive.css' />
+  </head>
+  <body>
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+                <a class="brand" href="#"><%= title %></a>
+                  <ul class="nav">
+                  </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row-fluid">
+        <div id="appview">
+
+        </div>
+      </div>
+    </div>
+
+    <script src="/javascripts/jquery.js"></script>
+    <script src="/javascripts/bootstrap.js"></script>
+    <script src="/javascripts/underscore.js"></script>
+    <script src="/javascripts/backbone.js"></script>
+    <script src="/javascripts/templates.js"></script>
+    <script src="/socket.io/socket.io.js"></script> 
+    <script src="/javascripts/hc/js/highcharts.js"></script>
+    <script src="/javascripts/hc/js/themes/gray.js"></script>
+    <script src="/javascripts/app.js"></script>
+  </body>
+</html>

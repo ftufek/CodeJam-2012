@@ -1,0 +1,18 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+a {
+  color: #00B7FF;
+}
+#remoteBtnHolder {
+  display: none;
+}
+.icon-bell {
+  background-position: 0 0 !important;
+  background-image: url('../img/bell.png') !important;
+}
+#bellring {
+  display: none;
+  text-align: center;
+}
